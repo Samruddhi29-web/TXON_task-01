@@ -1,0 +1,200 @@
+/* Css resert  */
+*{
+    margin:  0;
+    padding: 0;
+}
+#logo{
+    margin: 5px 5px;
+}
+#logo img{
+   height:75px;
+   /* margin: 10px 10px; */
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position:relative;
+    top:0px;
+}
+ #navbar ul{
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+}
+#navbar::before{
+    content: " ";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    top:0px;
+    left:0px;
+}
+#navbar ul li{
+    color: white;
+    font-size: 1.2rem;
+    list-style: none;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:4px 50px;
+    justify-content: center;
+    align-items: center;
+    height: 630px;
+}
+#home::before{
+    content: " ";
+    background: url(nutritious-food-285x160.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    top:0px;
+    left:0px;
+}
+.h-primary{
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.5rem;
+    padding: 12px;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Dosis', sans-serif;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+.btn{
+   padding:6px 18px;
+   border: 2px solid white;
+   background-color: rgb(241, 90, 90);
+   color: white;
+   margin:20px;
+   font-size: 1rem;
+   border-radius: 5px;
+   cursor: pointer;
+
+}
+/* Services section  */
+.center{
+    text-align: center;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border:2px solid brown;
+    padding: 34px;
+    margin:2px 6px;
+    border-radius: 20px;
+    background: #f0ecec;
+    
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+#services .box p{
+    font-family: 'Dosis', sans-serif;
+
+}
+.h-secondary{
+    
+    font-family: 'Dosis', sans-serif;
+    font-size:1.7rem;
+    padding:12px;
+}
+/* client section */
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client-section{
+    height: 530px;
+    
+}
+#client-section::before{
+    content:"";
+    position:absolute;
+    background:url('krqyfhubd7oft9ct47vf0c4iqejohkp7flkbgbunlmmgg57f8q5om1yzmga7jaod-.jpg');
+    width:100%;
+    height: 70%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#clients img{
+    height: 140px;
+}
+.client-item{
+    padding: 45px;
+}
+
+/* contact-section  */
+#contact{
+    position: relative;
+    height: 550px;
+   
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity:0.7;
+    background: url('th.jpg') no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+#contact-box form{
+    width: 30%;
+    
+}
+
+#contact-box label{
+    font-size: 1rem;
+    font-family: 'Dosis', sans-serif;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    
+
+}
